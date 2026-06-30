@@ -1249,7 +1249,71 @@ function formatText(text) {
         .join('');
 }
 
+function clearAllResults() {
+    // Clear summary section
+    document.getElementById('result-name').textContent = '';
+    document.getElementById('result-dob').textContent = '';
+    document.getElementById('life-path-num').textContent = '';
+    document.getElementById('expression-num').textContent = '';
+    document.getElementById('heart-desire-num').textContent = '';
+    document.getElementById('personality-num').textContent = '';
+    document.getElementById('birthday-num').textContent = '';
+    document.getElementById('maturity-num').textContent = '';
+
+    // Clear comprehensive report
+    document.getElementById('comprehensive-report-content').innerHTML = '';
+
+    // Clear overview tab
+    document.getElementById('overview-summary').innerHTML = '';
+    document.getElementById('dominant-numbers').innerHTML = '';
+    document.getElementById('missing-numbers').innerHTML = '';
+    document.getElementById('conflicting-numbers').innerHTML = '';
+
+    // Clear all main tabs
+    document.getElementById('destiny-content').innerHTML = '';
+    document.getElementById('lifepath-content').innerHTML = '';
+    document.getElementById('birthday-content').innerHTML = '';
+    document.getElementById('personality-content').innerHTML = '';
+    document.getElementById('heartdesire-content').innerHTML = '';
+
+    // Clear advanced tab items
+    document.getElementById('maturity-content').innerHTML = '';
+    document.getElementById('rational-content').innerHTML = '';
+    document.getElementById('balance-content').innerHTML = '';
+    document.getElementById('hidden-content').innerHTML = '';
+    document.getElementById('subconscious-content').innerHTML = '';
+    document.getElementById('challenge-content').innerHTML = '';
+
+    // Clear karmic tab
+    document.getElementById('karmic-warning').classList.add('hidden');
+    document.getElementById('karmic-warning-content').innerHTML = '';
+    document.getElementById('karmic-master-content').innerHTML = '';
+    document.getElementById('no-karmic-message').classList.add('hidden');
+
+    // Clear Lo Shu Grid tab
+    document.getElementById('loshu-grid-visual').innerHTML = '';
+    document.getElementById('loshu-interpretation').innerHTML = '';
+    document.getElementById('loshu-planes').innerHTML = '';
+
+    // Clear guidance tab
+    document.getElementById('positive-content').innerHTML = '';
+    document.getElementById('negative-content').innerHTML = '';
+    document.getElementById('planet-content').innerHTML = '';
+    document.getElementById('finance-content').innerHTML = '';
+    document.getElementById('vocation-content').innerHTML = '';
+    document.getElementById('health-content').innerHTML = '';
+    document.getElementById('luckydays-content').innerHTML = '';
+    document.getElementById('luckycolors-content').innerHTML = '';
+    document.getElementById('luckystones-content').innerHTML = '';
+    document.getElementById('importantyears-content').innerHTML = '';
+    document.getElementById('friendly-content').innerHTML = '';
+    document.getElementById('attraction-content').innerHTML = '';
+}
+
 function displayResults(data) {
+    // Clear all previous results first
+    clearAllResults();
+
     // Show results section
     document.getElementById('results').classList.remove('hidden');
 
