@@ -1,0 +1,67 @@
+╔══════════════════════════════════════════════════════════════╗
+║   Know Yourself 2 - How to Run the Application              ║
+╚══════════════════════════════════════════════════════════════╝
+
+Due to browser security, this app needs to run on a local server.
+
+┌──────────────────────────────────────────────────────────────┐
+│ EASIEST METHOD - Double-click START-SERVER.bat                │
+└──────────────────────────────────────────────────────────────┘
+
+1. Double-click "START-SERVER.bat"
+2. The app will open automatically in your browser at:
+   http://localhost:8000
+3. Keep the black window open while using the app
+4. Close the black window when done (or press Ctrl+C)
+
+┌──────────────────────────────────────────────────────────────┐
+│ ALTERNATIVE METHODS                                           │
+└──────────────────────────────────────────────────────────────┘
+
+METHOD 1: Using Chrome/Edge with disabled security (NOT RECOMMENDED)
+   - Close all Chrome/Edge windows
+   - Run: chrome.exe --allow-file-access-from-files
+   - Then open index.html
+
+METHOD 2: Using Visual Studio Code (if installed)
+   - Install "Live Server" extension
+   - Right-click index.html → "Open with Live Server"
+
+METHOD 3: Using Node.js (if installed)
+   - Open terminal in this folder
+   - Run: npx http-server -p 8000
+   - Open: http://localhost:8000
+
+METHOD 4: Using Python (if installed)
+   - Open terminal in this folder
+   - Run: python -m http.server 8000
+   - Open: http://localhost:8000
+
+┌──────────────────────────────────────────────────────────────┐
+│ TROUBLESHOOTING                                               │
+└──────────────────────────────────────────────────────────────┘
+
+Problem: "Error loading data files"
+Solution: Make sure you're running via START-SERVER.bat or
+          another method above, NOT by double-clicking index.html
+
+Problem: Port 8000 already in use
+Solution: Change the port number in START-SERVER.bat to 8001 or 8080
+
+Problem: PowerShell security error
+Solution: Run PowerShell as Administrator and execute:
+          Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+┌──────────────────────────────────────────────────────────────┐
+│ FEATURES                                                      │
+└──────────────────────────────────────────────────────────────┘
+
+✓ Complete numerology analysis with 50+ data fields
+✓ 6 core numbers + 5 advanced calculations
+✓ Life guidance (Finance, Vocation, Health)
+✓ Lucky elements (Days, Colors, Stones)
+✓ Comprehensive interpretations from all JSON data
+✓ Beautiful responsive interface
+✓ Works on desktop and mobile
+
+Enjoy your complete numerology analysis!

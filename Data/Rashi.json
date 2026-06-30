@@ -1,0 +1,134 @@
+[
+  {
+    "EnglishName": "Aquarius",
+    "HindiName": "Kumbha",
+    "FromDate": "1900-01-21",
+    "ToDate": "1900-02-20",
+    "Number": 8,
+    "Planet": "Saturn",
+    "BodyPart": "Shanks, Breathing",
+    "Element": "Water",
+    "Description": "Independent, innovative, and humanitarian. Values freedom and original thinking."
+  },
+  {
+    "EnglishName": "Aries",
+    "HindiName": "Mesh",
+    "FromDate": "1900-03-21",
+    "ToDate": "1900-04-20",
+    "Number": 9,
+    "Planet": "Mars",
+    "BodyPart": "Head,Brain",
+    "Element": "Fire",
+    "Description": "Bold, energetic, and confident. Enjoys taking initiative and leading."
+  },
+  {
+    "EnglishName": "Cancer",
+    "HindiName": "Kark",
+    "FromDate": "1900-06-21",
+    "ToDate": "1900-07-20",
+    "Number": 2,
+    "Planet": "Moon",
+    "BodyPart": "Heart, Lungs, Chest, Blood",
+    "Element": "Air",
+    "Description": "Caring, emotional, and protective. Values family and close relationships."
+  },
+  {
+    "EnglishName": "Capricorn",
+    "HindiName": "Makara",
+    "FromDate": "1900-12-21",
+    "ToDate": "1900-01-20",
+    "Number": 8,
+    "Planet": "Saturn",
+    "BodyPart": "Knees, Bones, Flesh",
+    "Element": "Earth",
+    "Description": "Disciplined, ambitious, and responsible. Achieves success through persistence."
+  },
+  {
+    "EnglishName": "Gemini",
+    "HindiName": "Mithun",
+    "FromDate": "1900-05-21",
+    "ToDate": "1900-06-20",
+    "Number": 5,
+    "Planet": "Mercury",
+    "BodyPart": "Hands, Collar-Bones,Neck, Respiratort Tract",
+    "Element": "Air",
+    "Description": "Curious, adaptable, and communicative. Learns quickly and enjoys variety."
+  },
+  {
+    "EnglishName": "Leo",
+    "HindiName": "Simha",
+    "FromDate": "1900-07-21",
+    "ToDate": "1900-08-20",
+    "Number": 1,
+    "Planet": "Sun",
+    "BodyPart": "Heart, Upper Abdomen",
+    "Element": "Fire",
+    "Description": "Confident, generous, and creative. Likes recognition and inspiring others."
+  },
+  {
+    "EnglishName": "Libra",
+    "HindiName": "Tula",
+    "FromDate": "1900-09-21",
+    "ToDate": "1900-10-20",
+    "Number": 6,
+    "Planet": "Venus",
+    "BodyPart": "Groins,Semen,Genitals",
+    "Element": "Air",
+    "Description": "Diplomatic, fair, and social. Strives for balance and harmony."
+  },
+  {
+    "EnglishName": "Pisces",
+    "HindiName": "Meena",
+    "FromDate": "1900-02-21",
+    "ToDate": "1900-03-20",
+    "Number": 3,
+    "Planet": "Jupiter",
+    "BodyPart": "Feet",
+    "Element": "Water",
+    "Description": "Compassionate, imaginative, and intuitive. Deeply empathetic and creative."
+  },
+  {
+    "EnglishName": "Sagittarius",
+    "HindiName": "Dhanu",
+    "FromDate": "1900-11-21",
+    "ToDate": "1900-12-20",
+    "Number": 3,
+    "Planet": "Jupiter",
+    "BodyPart": "Thighs, Limbs",
+    "Element": "Fire",
+    "Description": "Optimistic, adventurous, and honest. Loves learning and exploration."
+  },
+  {
+    "EnglishName": "Scorpio",
+    "HindiName": "Vrischika",
+    "FromDate": "1900-10-21",
+    "ToDate": "1900-11-20",
+    "Number": 9,
+    "Planet": "Mars",
+    "BodyPart": "Kidney, Bladder",
+    "Element": "Water",
+    "Description": "Passionate, determined, and intuitive. Handles challenges with resilience."
+  },
+  {
+    "EnglishName": "Taurus",
+    "HindiName": "Vrishabha",
+    "FromDate": "1900-04-21",
+    "ToDate": "1900-05-20",
+    "Number": 6,
+    "Planet": "Venus",
+    "BodyPart": "Eyes,Ears,Nose,Tongue,Face",
+    "Element": "Earth",
+    "Description": "Reliable, patient, and practical. Seeks stability and comfort."
+  },
+  {
+    "EnglishName": "Virgo",
+    "HindiName\n": "Kanya",
+    "FromDate": "1900-08-21",
+    "ToDate": "1900-09-20",
+    "Number": 5,
+    "Planet": "Mercury",
+    "BodyPart": "Navel,Bones,Lower Abdomen",
+    "Element": "Earth",
+    "Description": "Analytical, organized, and dependable. Focuses on details and improvement."
+  }
+]

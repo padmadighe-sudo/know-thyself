@@ -1,0 +1,569 @@
+[
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 6,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 7,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 10,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 13,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 9,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 11,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 14,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 12,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 0,
+    "Number": 8,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 1,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 2,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 5,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 8,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 4,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 6,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 9,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 17,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 1,
+    "Number": 3,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 8,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 9,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 12,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 15,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 11,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 13,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 16,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 14,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 0,
+    "Column": 2,
+    "Number": 10,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 7,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 8,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 11,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 14,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 10,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 12,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 15,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 13,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 0,
+    "Number": 9,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 5,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 6,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 9,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 12,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 8,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "R\now": 1,
+    "Column": 1,
+    "Number": 10,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 13,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 11,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 1,
+    "Number": 7,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 3,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 4,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 7,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 10,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 6,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 8,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 11,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 9,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 1,
+    "Column": 2,
+    "Number": 5,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 2,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 3,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 6,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 9,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 5,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 7,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 10,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 8,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 0,
+    "Number": 4,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 9,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 10,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 13,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 16,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 12,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 14,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 17,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 15,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 1,
+    "Number": 11,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 4,
+    "RulingNumber": 1,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 5,
+    "RulingNumber": 2,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 8,
+    "RulingNumber": 3,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 11,
+    "RulingNumber": 4,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 7,
+    "RulingNumber": 5,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 9,
+    "RulingNumber": 6,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 12,
+    "RulingNumber": 7,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 10,
+    "RulingNumber": 8,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  },
+  {
+    "Row": 2,
+    "Column": 2,
+    "Number": 6,
+    "RulingNumber": 9,
+    "Description": "Talisman position for this ruling number. Use the row and column to place the number in the talisman grid."
+  }
+]

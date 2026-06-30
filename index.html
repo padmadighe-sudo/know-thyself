@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Yourself - Comprehensive Numerology Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🔮 Know Yourself</h1>
+            <p class="subtitle">Comprehensive Numerology Analysis</p>
+        </header>
+
+        <!-- Input Form -->
+        <section class="input-section card">
+            <h2>Your Information</h2>
+            <form id="numerology-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullname">Full Name (as on birth certificate)</label>
+                        <input type="text" id="fullname" required placeholder="First Middle Last">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="birthdate">Date of Birth (DD/MM/YYYY)</label>
+                        <input type="date" id="birthdate" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary">Generate Complete Analysis</button>
+            </form>
+        </section>
+
+        <!-- Results Section -->
+        <div id="results" class="hidden">
+            <!-- Summary Card -->
+            <section class="card summary-section">
+                <h2 id="result-name"></h2>
+                <p id="result-dob" class="text-muted"></p>
+                <div class="numbers-grid">
+                    <div class="number-box">
+                        <div class="number-label">Life Path</div>
+                        <div class="number-value" id="life-path-num"></div>
+                    </div>
+                    <div class="number-box">
+                        <div class="number-label">Expression</div>
+                        <div class="number-value" id="expression-num"></div>
+                    </div>
+                    <div class="number-box">
+                        <div class="number-label">Heart's Desire</div>
+                        <div class="number-value" id="heart-desire-num"></div>
+                    </div>
+                    <div class="number-box">
+                        <div class="number-label">Personality</div>
+                        <div class="number-value" id="personality-num"></div>
+                    </div>
+                    <div class="number-box">
+                        <div class="number-label">Birthday</div>
+                        <div class="number-value" id="birthday-num"></div>
+                    </div>
+                    <div class="number-box">
+                        <div class="number-label">Maturity</div>
+                        <div class="number-value" id="maturity-num"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Detailed Sections -->
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="comprehensive">📖 Complete Report</button>
+                <button class="tab-btn" data-tab="overview">Overview</button>
+                <button class="tab-btn" data-tab="destiny">Destiny</button>
+                <button class="tab-btn" data-tab="lifepath">Life Path</button>
+                <button class="tab-btn" data-tab="birthday">Birthday</button>
+                <button class="tab-btn" data-tab="personality">Personality</button>
+                <button class="tab-btn" data-tab="heartdesire">Heart's Desire</button>
+                <button class="tab-btn" data-tab="advanced">Advanced</button>
+                <button class="tab-btn" data-tab="karmic">Karmic & Master</button>
+                <button class="tab-btn" data-tab="loshu">Lo Shu Grid</button>
+                <button class="tab-btn" data-tab="guidance">Guidance</button>
+            </div>
+
+            <!-- Comprehensive Report Tab -->
+            <section id="comprehensive" class="tab-content active card">
+                <h2>📖 Your Complete Numerology Life Guide</h2>
+                <p class="section-desc">A comprehensive synthesis of your numerology chart into a cohesive personality
+                    and life guide.</p>
+
+                <div id="comprehensive-report-content">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Overview Tab -->
+            <section id="overview" class="tab-content active card">
+                <h2>📊 Numerology Chart Overview</h2>
+                <p class="section-desc">A comprehensive analysis of your complete numerology profile, including dominant
+                    numbers and their combined influence.</p>
+
+                <div id="overview-summary"
+                    style="background: #1a2332; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div id="dominant-numbers" class="advanced-grid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div id="missing-numbers" style="margin-top: 20px;">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div id="conflicting-numbers" style="margin-top: 30px;">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Destiny Tab -->
+            <section id="destiny" class="tab-content card">
+                <h2>Destiny (Expression Number)</h2>
+                <p class="section-desc">The number that describes the tasks you must achieve in this lifetime.</p>
+                <div id="destiny-content" class="interpretation-content"></div>
+            </section>
+
+            <!-- Life Path Tab -->
+            <section id="lifepath" class="tab-content card">
+                <h2>Life Path</h2>
+                <p class="section-desc">This number represents who you are at birth and the native traits that you will
+                    carry with you through life.</p>
+                <div id="lifepath-content" class="interpretation-content"></div>
+            </section>
+
+            <!-- Birthday Tab -->
+            <section id="birthday" class="tab-content card">
+                <h2>Birthday Number</h2>
+                <p class="section-desc">Your birthday number reveals special talents and characteristics.</p>
+                <div id="birthday-content" class="interpretation-content"></div>
+            </section>
+
+            <!-- Personality Tab -->
+            <section id="personality" class="tab-content card">
+                <h2>Personality Number</h2>
+                <p class="section-desc">Relates a secret dream, your inner desires, or maybe even fantasies.</p>
+                <div id="personality-content" class="interpretation-content"></div>
+            </section>
+
+            <!-- Heart Desire Tab -->
+            <section id="heartdesire" class="tab-content card">
+                <h2>Heart's Desire (Soul Urge)</h2>
+                <p class="section-desc">Your inner cravings, likes and dislikes, which are usually kept private.</p>
+                <div id="heartdesire-content" class="interpretation-content"></div>
+            </section>
+
+            <!-- Advanced Tab -->
+            <section id="advanced" class="tab-content card">
+                <h2>Advanced Numerology</h2>
+                <div class="advanced-grid">
+                    <div class="advanced-item">
+                        <h3>Maturity Number</h3>
+                        <p class="section-desc">Understanding yourself in your later years.</p>
+                        <div id="maturity-content"></div>
+                    </div>
+                    <div class="advanced-item">
+                        <h3>Rational Thought</h3>
+                        <p class="section-desc">Your way of thinking and approach to problems.</p>
+                        <div id="rational-content"></div>
+                    </div>
+                    <div class="advanced-item">
+                        <h3>Balance Number</h3>
+                        <p class="section-desc">How you handle emotional turmoil.</p>
+                        <div id="balance-content"></div>
+                    </div>
+                    <div class="advanced-item">
+                        <h3>Hidden Passion</h3>
+                        <p class="section-desc">Your greatest natural talents and strengths.</p>
+                        <div id="hidden-content"></div>
+                    </div>
+                    <div class="advanced-item">
+                        <h3>Subconscious Self</h3>
+                        <p class="section-desc">How you react to demanding situations.</p>
+                        <div id="subconscious-content"></div>
+                    </div>
+                    <div class="advanced-item">
+                        <h3>Challenge Number</h3>
+                        <p class="section-desc">Areas of life that require special attention.</p>
+                        <div id="challenge-content"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Karmic & Master Numbers Tab -->
+            <section id="karmic" class="tab-content card">
+                <h2>Karmic Debt & Master Numbers</h2>
+                <p class="section-desc">Special numbers that carry significant spiritual lessons and higher purpose.</p>
+
+                <div id="karmic-warning" class="hidden"
+                    style="background: #4a1d1d; padding: 20px; border-radius: 10px; margin-bottom: 20px; border-left: 4px solid #f59e0b;">
+                    <h3 style="color: #f59e0b; margin-bottom: 10px;">⚠️ Important Numbers Detected</h3>
+                    <div id="karmic-warning-content"></div>
+                </div>
+
+                <div id="karmic-master-content" class="advanced-grid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div id="no-karmic-message" class="hidden" style="text-align: center; padding: 40px; color: #cbd5e1;">
+                    <p style="font-size: 1.2rem;">No Karmic Debt or Master Numbers detected in your chart.</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">This means you are working through more balanced
+                        lessons in this lifetime.</p>
+                </div>
+            </section>
+
+            <!-- Lo Shu Grid Tab -->
+            <section id="loshu" class="tab-content card">
+                <h2>🔢 Lo Shu Numerology Grid</h2>
+                <p class="section-desc">The Lo Shu Grid (also called Magic Square or Numerology Talisman) is an ancient
+                    Chinese numerology system that maps the digits from your birth date onto a 3×3 grid. It reveals your
+                    strengths, weaknesses, and life lessons.</p>
+
+                <div id="loshu-grid-visual" style="margin: 30px 0;">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div id="loshu-interpretation" style="margin: 30px 0;">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div id="loshu-planes" class="advanced-grid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <div
+                    style="margin-top: 30px; padding: 20px; background: #1a2332; border-radius: 10px; border-left: 4px solid #6b46c1; color: #e2e8f0;">
+                    <h3 style="color: #a78bfa; margin-top: 0; font-weight: 700;">📖 How to Read Your Grid</h3>
+                    <p style="margin-bottom: 10px; color: #e2e8f0;"><strong style="color: #c4b5fd;">Numbers with dots
+                            (●):</strong> These numbers appear in your
+                        birth date and represent natural abilities and traits you possess.</p>
+                    <p style="margin-bottom: 10px; color: #e2e8f0;"><strong style="color: #c4b5fd;">Multiple
+                            dots:</strong> When a number appears multiple times
+                        in your birth date, it indicates a very strong influence of that energy in your life.</p>
+                    <p style="margin-bottom: 10px; color: #e2e8f0;"><strong style="color: #c4b5fd;">Empty cells (missing
+                            numbers):</strong> These represent
+                        qualities you need to develop through life experiences - your karmic lessons.</p>
+                    <p style="margin-bottom: 10px; color: #e2e8f0;"><strong style="color: #c4b5fd;">Planes &
+                            Arrows:</strong> When three numbers align
+                        horizontally, vertically, or diagonally, they form "planes" or "arrows" that reveal special
+                        characteristics and patterns in your personality.</p>
+                    <p
+                        style="margin-top: 15px; padding: 15px; background: #2a3342; border-radius: 6px; color: #fcd34d; border-left: 3px solid #fbbf24;">
+                        <strong style="color: #fde68a;">💡 Tip:</strong> The Lo Shu Grid is used in Chinese metaphysics
+                        and Pythagorean
+                        numerology. Many practitioners create a physical talisman of their grid and carry it as a
+                        symbolic charm for manifestation and self-awareness.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Guidance Tab -->
+            <section id="guidance" class="tab-content card">
+                <h2>Life Guidance & Attributes</h2>
+                <div class="guidance-grid">
+                    <div class="guidance-item">
+                        <h3>🌟 Positive Traits</h3>
+                        <div id="positive-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>⚠️ Negative Traits</h3>
+                        <div id="negative-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>🪐 Ruling Planet</h3>
+                        <div id="planet-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>💰 Finance</h3>
+                        <div id="finance-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>💼 Vocation</h3>
+                        <div id="vocation-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>🏥 Health</h3>
+                        <div id="health-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>🍀 Lucky Days</h3>
+                        <div id="luckydays-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>🎨 Lucky Colors</h3>
+                        <div id="luckycolors-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>💎 Lucky Stones</h3>
+                        <div id="luckystones-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>📅 Important Years</h3>
+                        <div id="importantyears-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>🤝 Friendly Numbers</h3>
+                        <div id="friendly-content"></div>
+                    </div>
+                    <div class="guidance-item">
+                        <h3>⚡ Attraction Numbers</h3>
+                        <div id="attraction-content"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>Know Yourself - Comprehensive Numerology Analysis</p>
+            <p class="disclaimer">For entertainment and self-discovery purposes only</p>
+        </footer>
+    </div>
+
+    <script src="report-generator.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

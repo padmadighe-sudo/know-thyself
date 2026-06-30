@@ -1,0 +1,90 @@
+[
+  {
+    "Number": 1,
+    "Description": "A period of independence, leadership, and self-confidence.",
+    "1": "Early life builds confidence and independence.",
+    "2": "Success comes through initiative and leadership.",
+    "3": "Recognition grows through determination.",
+    "4": "Later life stays active with leadership roles."
+  },
+  {
+    "Number": 2,
+    "Description": "A period of cooperation, patience, and harmony.",
+    "1": "Learn teamwork and emotional balance.",
+    "2": "Progress comes through partnerships and diplomacy.",
+    "3": "Patience and attention to detail bring results.",
+    "4": "Later life is peaceful through cooperation."
+  },
+  {
+    "Number": 3,
+    "Description": "A creative and social period of self-expression.",
+    "1": "Develop talents while staying focused.",
+    "2": "Communication and creativity bring opportunities.",
+    "3": "Relationships and imagination support success.",
+    "4": "Enjoy creative freedom and travel."
+  },
+  {
+    "Number": 4,
+    "Description": "A practical period focused on stability and hard work.",
+    "1": "Build strong foundations through discipline.",
+    "2": "Steady effort creates lasting success.",
+    "3": "Organization and persistence pay off.",
+    "4": "Purpose comes from productive work."
+  },
+  {
+    "Number": 7,
+    "Description": "A reflective period of learning and inner growth.",
+    "1": "Youth encourages study and self-discovery.",
+    "2": "Knowledge and patience lead to progress.",
+    "3": "Inner wisdom becomes your strength.",
+    "4": "Later life is peaceful and insightful."
+  },
+  {
+    "Number": 5,
+    "Description": "A period of change, freedom, and adventure.",
+    "1": "Early life may be restless but builds resilience.",
+    "2": "Adaptability creates new opportunities.",
+    "3": "Balance freedom with responsibility.",
+    "4": "Later life remains active and flexible."
+  },
+  {
+    "Number": 6,
+    "Description": "A period centered on family, care, and responsibility.",
+    "1": "Family duties shape personal growth.",
+    "2": "Success comes through service and harmony.",
+    "3": "Relationships remain a priority.",
+    "4": "Later life brings security and fulfillment."
+  },
+  {
+    "Number": 8,
+    "Description": "A period of ambition, business, and achievement.",
+    "1": "Develop practical skills early.",
+    "2": "Career and financial success are emphasized.",
+    "3": "Leadership and management grow stronger.",
+    "4": "Later years focus on achievement and influence."
+  },
+  {
+    "Number": 9,
+    "Description": "A humanitarian period of compassion and service.",
+    "1": "Learn empathy and kindness.",
+    "2": "Support meaningful causes and inspire others.",
+    "3": "Broaden your outlook through service.",
+    "4": "Later life emphasizes giving back."
+  },
+  {
+    "Number": 11,
+    "Description": "A spiritually inspired period of intuition and purpose.",
+    "1": "Develop sensitivity and cooperation.",
+    "2": "Use your inspiration to help others.",
+    "3": "Creative and spiritual growth increase.",
+    "4": "Later life centers on wisdom and guidance."
+  },
+  {
+    "Number": 22,
+    "Description": "A master builder period for lasting achievements.",
+    "1": "Build discipline and practical skills.",
+    "2": "Large goals become possible with preparation.",
+    "3": "Turn vision into meaningful results.",
+    "4": "Leave a lasting legacy through service."
+  }
+]

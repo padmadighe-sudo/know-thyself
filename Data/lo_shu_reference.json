@@ -1,0 +1,129 @@
+{
+  "numbers": {
+    "1": {
+      "title": "Expression & Self",
+      "present": {
+        "1": "Reserved with feelings",
+        "2": "Clear and balanced communicator",
+        "3": "Very expressive or very quiet",
+        "4": "Very difficult verbal expression",
+        "5+": "Strong difficulty expressing verbally; may prefer creative outlets"
+      },
+      "missing": "Low self-confidence, difficulty expressing thoughts and asserting oneself"
+    },
+    "2": {
+      "title": "Sensitivity & Intuition",
+      "present": {
+        "1": "Sensitive and intuitive",
+        "2": "Strong intuition and judgment",
+        "3": "Highly emotional and intuitive",
+        "4+": "Overly sensitive and reactive"
+      },
+      "missing": "Low sensitivity and intuition"
+    },
+    "3": {
+      "title": "Creativity & Confidence",
+      "present": {
+        "1": "Creative and optimistic",
+        "2": "Imaginative and mentally alert",
+        "3": "Dreamy and imaginative",
+        "4+": "Impractical and fearful"
+      },
+      "missing": "Low confidence and self-expression"
+    },
+    "4": {
+      "title": "Practicality & Organization",
+      "present": {
+        "1": "Practical and organized",
+        "2": "Excellent organizer",
+        "3": "Disciplined and hardworking",
+        "4": "Highly material-focused"
+      },
+      "missing": "Less practical and less organized"
+    },
+    "5": {
+      "title": "Balance & Drive",
+      "present": {
+        "1": "Balanced and compassionate",
+        "2": "Driven and determined",
+        "3": "Energetic but impulsive",
+        "4": "Risk-taking and accident-prone"
+      },
+      "missing": "Low motivation and adaptability"
+    },
+    "6": {
+      "title": "Responsibility & Family",
+      "present": {
+        "1": "Responsible and caring",
+        "2": "Protective",
+        "3": "Possessive but creative",
+        "4": "Highly creative but unfocused"
+      },
+      "missing": "Difficulty expressing care and emotions"
+    },
+    "7": {
+      "title": "Learning & Wisdom",
+      "present": {
+        "1": "Learns through experience",
+        "2": "Wisdom through challenges",
+        "3": "Resilient after setbacks",
+        "4": "Profound lessons through major losses"
+      },
+      "missing": "Disorganized and less reflective"
+    },
+    "8": {
+      "title": "Discipline & Finance",
+      "present": {
+        "1": "Methodical and detail-oriented",
+        "2": "Perceptive and dependable",
+        "3": "Business-minded",
+        "4": "Highly ambitious and adaptable"
+      },
+      "missing": "Weak financial management"
+    },
+    "9": {
+      "title": "Intellect & Vision",
+      "present": {
+        "1": "Ambitious and compassionate",
+        "2": "Intelligent and idealistic",
+        "3": "Highly intelligent",
+        "4+": "Powerful mind but detached"
+      },
+      "missing": "Less empathetic"
+    }
+  },
+  "arrows": {
+    "2-5-8": {
+      "strength": "Determination",
+      "weakness": "Frustration"
+    },
+    "4-5-6": {
+      "strength": "Emotional Balance",
+      "weakness": "Suspicion"
+    },
+    "3-5-7": {
+      "strength": "Spirituality",
+      "weakness": "Loneliness"
+    },
+    "4-9-2": {
+      "strength": "Intellect",
+      "weakness": "Poor Memory"
+    },
+    "8-1-6": {
+      "strength": "Prosperity",
+      "weakness": "Financial Losses"
+    },
+    "4-3-8": {
+      "strength": "Planning",
+      "weakness": "Confusion"
+    },
+    "9-5-1": {
+      "strength": "Willpower",
+      "weakness": "Indecision"
+    },
+    "2-7-6": {
+      "strength": "Action",
+      "weakness": "Apathy"
+    }
+  }
+}

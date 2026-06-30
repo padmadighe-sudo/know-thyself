@@ -1,0 +1,20 @@
+[
+  {
+    "Weekday": 0,
+    "IsMorning": false,
+    "BirthTime": "00:00-01:00",
+    "LuckyNumber": 3
+  },
+  {
+    "Weekday": 0,
+    "IsMorning": false,
+    "BirthTime": "01:00-02:00",
+    "LuckyNumber": 9
+  },
+  {
+    "Weekday": 0,
+    "IsMorning": true,
+    "BirthTime": "00:00-01:00",
+    "LuckyNumber": 1
+  }
+]

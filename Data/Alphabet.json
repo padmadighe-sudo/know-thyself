@@ -1,0 +1,36 @@
+[
+  {
+    "Letter": "A",
+    "Weightage": 1,
+    "Cornerstone": "Ambitious, independent, courageous, natural leader, determined.",
+    "RepeatSignificance": "Too many A's may lead to dominance, stubbornness, criticism, and possible head-related health issues.",
+    "Capstone": "Persistent and determined to complete tasks.",
+    "Overall": "Represents leadership, creativity, initiative, and ambition.",
+    "FirstVowel": "Independent, adventurous, original thinker with strong convictions. Should avoid being overly dominant or opinionated.",
+    "Receptive": "May become distracted, unrealistic, or frustrated.",
+    "Dual": "Can struggle with identity or consistency in beliefs.",
+    "Planes": 1,
+    "Nature": 0
+  },
+  {
+    "Letter": "B",
+    "Weightage": 2,
+    "Cornerstone": "Sensitive, loyal, compassionate, peace-loving, thoughtful.",
+    "Capstone": "Works well with others to complete tasks.",
+    "Overall": "Private, emotional, trustworthy, and slow to open up.",
+    "FirstConsonant": "Self-aware and understanding of others.",
+    "Planes": 2,
+    "Nature": 1
+  },
+  {
+    "Letter": "C",
+    "Weightage": 3,
+    "Cornerstone": "Expressive, creative, cheerful, confident, outgoing.",
+    "RepeatSignificance": "Persistence helps overcome challenges.",
+    "Capstone": "Finishes tasks creatively and confidently.",
+    "Overall": "Energetic and optimistic, but should avoid unnecessary worry.",
+    "FirstConsonant": "Positive and optimistic mindset.",
+    "Planes": 3,
+    "Nature": 2
+  }
+]
