@@ -193,10 +193,11 @@ function reduceNumber(original, keepMasters = true) {
 }
 
 function calculateLifePath(dateStr) {
-    const date = new Date(dateStr);
-    const month = date.getMonth() + 1;
-    const day = date.getDate();
-    const year = date.getFullYear();
+    // Parse DD/MM/YYYY format
+    const parts = dateStr.split('/');
+    const day = parseInt(parts[0]);
+    const month = parseInt(parts[1]);
+    const year = parseInt(parts[2]);
 
     // Add all individual digits together first
     const monthDigits = month.toString().split('').reduce((sum, d) => sum + parseInt(d), 0);
@@ -259,8 +260,9 @@ function calculateMaturity(lifePath, expression) {
 }
 
 function getBirthdayNumber(dateStr) {
-    const date = new Date(dateStr);
-    return date.getDate();
+    // Parse DD/MM/YYYY format
+    const parts = dateStr.split('/');
+    return parseInt(parts[0]);
 }
 
 function getFirstVowel(name) {
@@ -329,10 +331,11 @@ function calculateSubconscious(name) {
 }
 
 function calculateChallenge(dateStr) {
-    const date = new Date(dateStr);
-    const month = date.getMonth() + 1;
-    const day = date.getDate();
-    const year = date.getFullYear();
+    // Parse DD/MM/YYYY format
+    const parts = dateStr.split('/');
+    const day = parseInt(parts[0]);
+    const month = parseInt(parts[1]);
+    const year = parseInt(parts[2]);
 
     const m = reduceNumber(month, false).singleDigit;
     const d = reduceNumber(day, false).singleDigit;
@@ -788,11 +791,11 @@ function calculateLoShuGrid(dateStr) {
         [8, 1, 6]
     ];
 
-    // Extract all digits from the birthdate
-    const date = new Date(dateStr);
-    const day = date.getDate();
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
+    // Extract all digits from the birthdate (DD/MM/YYYY format)
+    const parts = dateStr.split('/');
+    const day = parseInt(parts[0]);
+    const month = parseInt(parts[1]);
+    const year = parseInt(parts[2]);
 
     // Combine date parts into a string of digits
     const dateString = `${day.toString().padStart(2, '0')}${month.toString().padStart(2, '0')}${year}`;
@@ -902,11 +905,11 @@ function calculateLoShuGridCombined(dateStr, name) {
         [8, 1, 6]
     ];
 
-    // Get birth date digits
-    const date = new Date(dateStr);
-    const day = date.getDate();
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
+    // Get birth date digits (DD/MM/YYYY format)
+    const parts = dateStr.split('/');
+    const day = parseInt(parts[0]);
+    const month = parseInt(parts[1]);
+    const year = parseInt(parts[2]);
     const dateString = `${day.toString().padStart(2, '0')}${month.toString().padStart(2, '0')}${year}`;
 
     // Get name numbers

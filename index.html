@@ -28,7 +28,10 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label for="birthdate">Date of Birth (DD/MM/YYYY)</label>
-                        <input type="date" id="birthdate" required>
+                        <input type="text" id="birthdate" placeholder="DD/MM/YYYY" pattern="\d{2}/\d{2}/\d{4}" required>
+                        <small style="color: #94a3b8; font-size: 0.85rem; display: block; margin-top: 5px;">
+                            Example: 15/08/1990
+                        </small>
                     </div>
                 </div>
                 <button type="submit" class="btn-primary">Generate Complete Analysis</button>
